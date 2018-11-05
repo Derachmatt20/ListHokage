@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="100">
+
+
+    <TextView
+        android:id="@+id/profile"
+        android:layout_width="170dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="110dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="120dp"
+        android:textStyle="bold"
+        android:text="PROFILE MAHASISWA"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/nmahasiswa"
+        android:layout_width="254dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="71dp"
+        android:layout_marginTop="164dp"
+        android:text="Nama : Dede Rahmat ALam"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="15dp"
+        android:layout_marginLeft="71dp"
+        tools:ignore="DuplicateIds" />
+
+    <TextView
+        android:id="@+id/nim"
+        android:layout_width="254dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="71dp"
+        android:layout_marginTop="216dp"
+        android:text=" NIM    : 1157050036"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="15dp"
+        android:layout_marginLeft="71dp" />
+
+    <TextView
+        android:id="@+id/ttl"
+        android:layout_width="254dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="266dp"
+        android:text="TTL     : 20 -10 -1997"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="15dp"
+        android:layout_marginLeft="72dp" />
+
+    <TextView
+        android:id="@+id/visi"
+        android:layout_width="254dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="317dp"
+        android:text="Visi      : Make it Rain"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="15dp"
+        android:layout_marginLeft="72dp" />
+
+</RelativeLayout>
